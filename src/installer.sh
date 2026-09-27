@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Install Game Server
+# Install Runescape: Dragonwilds
 #
 # Please ensure to run this script as root (or at least with sudo)
 #
@@ -8,7 +8,7 @@
 # @AUTHOR  Charlie Powell <cdp1337@bitsnbytes.dev>
 # @CATEGORY Game Server
 # @TRMM-TIMEOUT 600
-# @WARLOCK-TITLE Game Name
+# @WARLOCK-TITLE Runescape Dragonwilds
 # @WARLOCK-IMAGE media/some-game-image.webp
 # @WARLOCK-ICON media/some-game-icon.webp
 # @WARLOCK-THUMBNAIL media/some-game-thumbnail.webp
@@ -41,17 +41,17 @@
 ############################################
 
 # Version of this installation script, bump when you release new versions.
-INSTALLER_VERSION="v20260318"
+INSTALLER_VERSION="v20260927"
 
 # Name of the game (used to create the directory)
-GAME="GameName"
+GAME="RunescapeDragonwilds"
 
-GAME_DESC="Game Dedicated Server"
+GAME_DESC="Runescape Dragonwilds"
 
 # If your repo URL is github.com/username/repo, then this should be "username/repo" without the "github.com" or "https://"
-REPO="your-github/your-repo"
+REPO="BitsNBytes25/Runescape-Dragonwilds"
 
-WARLOCK_GUID="replace-with-guid-once-compiled"
+WARLOCK_GUID="eb8e6e2d-2cf4-f076-320b-24b5656537de"
 
 # Set to the username to use for this game.
 # Steam generally recommends using 'steam', but this can be whatever makes sense.
@@ -67,7 +67,7 @@ GAME_DIR="/home/${GAME_USER}/${GAME}"
 # for example, "2.2.12" will use "2.2.54" if .54 is the latest, but NOT "2.3.13"
 # https://github.com/BitsNBytes25/Warlock-Manager
 # For development, use "main" to pull directly from Github main branch for Manager.
-MANAGER_VERSION="2.2.12"
+MANAGER_VERSION="2.2"
 
 # compile:usage
 # compile:argparse
